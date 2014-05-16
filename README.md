@@ -3,6 +3,7 @@ Life
 
 A game of life with SDL
 
+![Alt text](./example.png "")
 
 How to
 -----------
