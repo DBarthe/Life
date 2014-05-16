@@ -4,6 +4,7 @@ Life
 A game of life with SDL
 
 ![Alt text](./example.png "")
+https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life
 
 How to
 -----------
