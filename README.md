@@ -13,8 +13,8 @@ Somes features :
 * ascii mode
 * fullscreen
 * circular and closed maps
-* clocks modifiable
-* possibility to change the rules of the automato* statistics bar
+* clock is modifiable
+* possibility to change the rules of the automaton statistics bar
 
 Compilation
 -----------
