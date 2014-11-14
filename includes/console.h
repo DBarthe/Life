@@ -8,7 +8,7 @@
 ** Last update Tue Jun  4 23:48:59 2013 barthelemy delemotte
 */
 
-#ifndef _CONSOLE_H
+#ifndef _CONSOLE_H_
 # define _CONSOLE_H_
 
 # include "life.h"
