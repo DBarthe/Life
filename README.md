@@ -44,7 +44,8 @@ Options:
 
 * __-m__
 
->switch to closed map mode (problem with camera movements)
+>switch to closed map mode (problem with camera movements)0
+
 * __-r__ a[|b]
 
 >change the rules. a is a list of number of neighbor for birth, b is like a but for survival. (exemple : -r 3/23 for the official rules)     
