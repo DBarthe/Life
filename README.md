@@ -29,7 +29,7 @@ Usage
 $ ./life [ options ] map_file
 ~~~
 
-Options:
+####Options:
 * __-x__ map_width
 
 >set the map witdh (default: same as in the map file)
@@ -58,8 +58,7 @@ Options:
 
 >swith to ascii mode
 
-
-Exemples:
+####Exemples:
 ~~~bash
 $ ./life maps/double_breeder.png 
 ~~~
