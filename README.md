@@ -6,7 +6,7 @@ A game of life with SDL
 ![Alt text](./example.png "")
 https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life
 
-Somes features :
+Some features :
 * zoom, camera moving
 * significant cells colorization
 * maps are loaded from images (see in maps/ for example)
@@ -44,11 +44,11 @@ $ ./life [ options ] map_file
 
 * __-m__
 
->switch to closed map mode (problem with camera movements)0
+>switch to closed map mode (problem with camera movements)
 
-* __-r__ a[|b]
+* __-r__ a[/b]
 
->change the rules. a is a list of number of neighbor for birth, b is like a but for survival. (exemple : -r 3/23 for the official rules)     
+>change the rules. For example: __-r 3/23__ means 3 neighbors to be born, 2 or 3 to survive, dead otherwise.
 
 * __-f__
 
@@ -58,9 +58,10 @@ $ ./life [ options ] map_file
 
 >swith to ascii mode
 
-####Exemples:
+####Examples:
 ~~~bash
-$ ./life maps/double_breeder.png 
+$ ./life maps/double_breeder.png                  # classic
+$./life maps/BigAnts.bmp  -x 1000 -y 1000 -r 1/2  # epileptic
 ~~~
 
 Key Control
